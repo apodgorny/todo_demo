@@ -14,16 +14,16 @@ This project is an interview assignment with the following requirements:
 
 In this project I am featuring the following:
 
-– Typescript and Node.js
-– No external dependencies in server or client side code.
-– Lightweight – Only 8K js
-– Layered server architecture: router/view/model/sqlite layers.
-– Fully Ajax driven – no page refresh
-– Create/Read/Update/Delete features are in place and are RESTful
-– All code is OOP
-– In-house built simple migration feature that keeps track of order and version
-– Secure. Access restricted to a clearly defined set of resources
-– Settings, libraries, sqlite adapter are abstracted into separate classes
-– Client side HTML is generated with JS class on–the–fly.
-– Fast and furious time of completion of project: 1.5 days.
+- Typescript and Node.js
+- No external dependencies in server or client side code.
+- Lightweight – Only 8K js
+- Layered server architecture: router/view/model/sqlite layers.
+- Fully Ajax driven – no page refresh
+- Create/Read/Update/Delete features are in place and are RESTful
+- All code is OOP
+- In-house built simple migration feature that keeps track of order and version
+- Secure. Access restricted to a clearly defined set of resources
+- Settings, libraries, sqlite adapter are abstracted into separate classes
+- Client side HTML is generated with JS class on–the–fly.
+- Fast and furious time of completion of project: 1.5 days.
 
