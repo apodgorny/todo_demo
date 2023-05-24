@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+.todo {
+	font-family: Helvetica;
+	margin: 0 auto;
+	max-width: 500px;
+	text-align: right;
+}
+
+	.todo ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+.row {
+  display: flex;
+}
+
+.todo-item {
+	text-align: left;
+	position: relative;
+	margin: 5px 0;
+	border: none;
+	background-color: #d9ebf0;
+	list-style: none;
+	list-style-type: none;
+	list-style-image: none;
+	border-radius: 5px;
+}
+
+.todo-item.done {
+	background-color: #caf3df;
+}
+	.todo-item .column1 {
+		padding: 20px;
+    	flex: 1;
+    	border-radius: 5px 0 0 5px;
+	}
+		.todo-item textarea,
+		.todo-item textarea:focus {
+			position: absolute;
+			top: 0;
+			left: 0;
+			border-radius: 5px;
+			width: 100%;
+			height: 100%;
+			border: 3px solid #cae9f3;
+			outline: none;
+		}
+
+	.todo-item .column2 {
+  		flex: 0 0 50px;
+  		border-radius: 0 5px 5px 0;
+	}
+	.todo-item-link {
+		display: block;
+		padding: 2px 0 0 0;
+		font-size: 40px;
+		height: 40%;
+		vertical-align: middle;
+		text-align: center;
+		line-height: 37px;
+		cursor: pointer;
+		color: #90becc;
+	}
+	.todo-item.done .todo-item-link-done {
+		display: none;
+	}
+	.todo-item-link-delete:hover {
+		color: red;
+	}
+	.todo-item-link-done:hover {
+		color: green;
+	}
+
+	.todo-item-body {
+		font-size: 16px;
+		color: #333;
+		margin: 0 0 10px 0;
+	}
+	.todo-item-date {
+		font-size: 12px;
+	}
+
+	.todo-item-completed {
+		display: none;
+		padding-left: 3px;
+	}
+	.todo-item.done .todo-item-completed {
+		display: inline-block;
+	}
+
+	.todo-textarea {
+		border: 1px solid #90becc;
+		width: 100%;
+		outline: none;
+		border-radius: 5px;
+	}
+
+	.todo-textarea-button {
+		background-color: #90becc;
+		color: #FFF;
+		border: none;
+		padding: 10px 20px;
+		font-size: 16px;
+		border-radius: 5px;
+	}
+	
+
+
+
+
+
+
