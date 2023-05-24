@@ -3,6 +3,8 @@
 ### Lightweight: gzipped size of generated javascript: 8K
 ### Time of completion: 1.5 days
 
+![Screenshot 2023-05-24 at 13 08 32](https://github.com/apodgorny/todo_demo/assets/2205877/c334438f-911d-4757-bafc-ced52c98af9a)
+
 This project is an interview assignment with the following requirements:
 
 - User comes to main page and sees a list of todos.
