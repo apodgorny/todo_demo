@@ -27,3 +27,18 @@ In this project I am featuring the following:
 - Client side HTML is generated with JS class on–the–fly.
 - Fast and furious time of completion of project: 1.5 days.
 
+To build service, install sqlite3:
+
+`npm install sqlite3`
+
+To run typescript transpiler:
+
+`npx tsc`
+
+To start service run:
+
+`node js/server/app.js`
+
+The migrations run on every server start:
+
+![Screenshot 2023-05-24 at 12 47 22](https://github.com/apodgorny/todo_demo/assets/2205877/a55d9252-1e5d-452e-938a-a44f5bd1f51e)
