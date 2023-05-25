@@ -18,8 +18,8 @@ function element(
 }
 
 function ajax(
-	url      : any,
-	callback : any,
+	url      : any, // TODO why use any?
+	callback : any, // TODO why use callback style instead of async/await?
 	method   : string = 'GET',
 	body     : string = null
 ): void {

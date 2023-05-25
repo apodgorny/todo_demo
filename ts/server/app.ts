@@ -10,13 +10,13 @@ import {InitDatabase}       from './models'
 InitDatabase()
 
 const server = http.createServer((req: any, res: any): void => {
-	let path = Utils.getPath(req.url)
+	let path = Utils.getPath(req.url) // TODO variable is not used
 	console.log('REQUEST:', req.url)
 
 	try {
 		if (req.url === '/') {
 			TodoView.index(req, res)
-		} else if (req.url.startsWith('/all')) {
+		} else if (req.url.startsWith('/all')) { // TODO why use startsWith instead of equality?
 			TodoView.all(req, res)
 		} else if (req.url.startsWith('/create')) {
 			TodoView.create(req, res)
