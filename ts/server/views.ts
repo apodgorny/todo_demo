@@ -41,7 +41,7 @@ export const TodoView = {
 		})
 	},
 	create: (req: any, res: any): void => {
-		Utils.receivePostData(req, (data: any) => {
+		Utils.receivePostData(req, (data: any) => { // TODO what benefits do we get by processing this request here in TodoView instead of directly in the route?
 			TodoModel.create(data.text, (item: TodoItem) => {
 				res.writeHead(200)
 				res.end(JSON.stringify(item))
